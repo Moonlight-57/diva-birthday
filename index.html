@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <meta name="theme-color" content="#090014">
+
+    <title>EMAN — 30 • 09 • A Special Day</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* Prevent flash before CSS loads */
+        html {
+            background: #090014;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         BACKGROUND
+    ====================================================== -->
+
+    <div class="bg-orb orb-one"></div>
+    <div class="bg-orb orb-two"></div>
+    <div class="bg-orb orb-three"></div>
+
+    <div class="noise"></div>
+
+    <!-- =====================================================
+         AUDIO
+    ====================================================== -->
+
+    <!-- ADD YOUR BACKGROUND MUSIC HERE -->
+    <audio id="bgMusic" loop preload="auto">
+        <source src="assets/background-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- =====================================================
+         TOP BAR
+    ====================================================== -->
+
+    <header class="top-bar">
+
+        <div class="date-label">
+            30 <span>•</span> 09 <span>•</span> A SPECIAL DAY
+        </div>
+
+        <div class="archive-label">
+            EMAN / 7TH SEMESTER ARCHIVE
+        </div>
+
+        <button class="music-btn" id="musicToggle" aria-label="Toggle music">
+            <span class="music-icon">♫</span>
+            <span class="music-text">MUSIC</span>
+        </button>
+
+    </header>
+
+
+    <!-- =====================================================
+         PROGRESS
+    ====================================================== -->
+
+    <div class="progress-wrap">
+
+        <div class="progress-track">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <div class="progress-count">
+            <span id="currentCount">01</span>
+            <span>/</span>
+            <span id="totalCount">12</span>
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         MAIN EXPERIENCE
+    ====================================================== -->
+
+    <main id="experience">
+
+
+        <!-- =================================================
+             SCREEN 01 — OPENING
+        ================================================== -->
+
+        <section class="screen active" id="screen-1">
+
+            <div class="screen-inner opening-screen">
+
+                <div class="eyebrow">
+                    AN ARCHIVE OF FOUR PEOPLE
+                </div>
+
+                <h1 class="hero-title">
+                    This isn't just<br>
+                    a <em>birthday</em><br>
+                    website.
+                </h1>
+
+                <p class="hero-description">
+                    It's evidence of four girls who don't care about
+                    the world, people's opinions, or what's happening
+                    around us.
+                    <br><br>
+                    We care about each other, our happiness,
+                    and most importantly...
+                    <strong>what we're going to eat next.😂</strong>
+                </p>
+
+                <div class="opening-meta">
+                    <span>04 GIRLS</span>
+                    <span>07 SEMESTERS</span>
+                    <span>∞ MEMORIES</span>
+                </div>
+
+                <button class="primary-btn next-btn">
+                    <span>ENTER EMAN'S ARCHIVE</span>
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SCREEN 02 — MEET EMAN
+        ================================================== -->
+
+        <section class="screen" id="screen-2">
+
+            <div class="screen-inner">
+
+                <div class="section-heading">
+
+                    <div class="eyebrow">01 / SUBJECT FOUND</div>
+
+                    <h2>
+                        Meet <em>Eman.</em>
+                    </h2>
+
+                    <p>
+                        The girl who somehow manages to be helpful,
+                        fashionable, dramatic, loud and camera-ready
+                        at exactly the same time.
+                    </p>
+
+                </div>
+
+
+                <div class="eman-profile">
+
+                    <div class="portrait-wrap">
+
+                        <!-- ADD EMAN'S MAIN PHOTO -->
+                        <img
+                            src="assets/eman-main.jpg"
+                            alt="Eman"
+                            class="eman-portrait"
+                        >
+
+                        <div class="portrait-glow"></div>
+
+                        <div class="portrait-tag">
+                            EMAN / ORIGINAL
+                        </div>
+
+                    </div>
+
+
+                    <div class="personality-panel">
+
+                        <div class="personality-tag">
+                            ALWAYS READY TO HELP
+                        </div>
+
+                        <div class="personality-tag">
+                            CAMERA ALWAYS READY
+                        </div>
+
+                        <div class="personality-tag">
+                            FILTERS ARE MANDATORY
+                        </div>
+
+                        <div class="personality-tag">
+                            FASHION POLICE
+                        </div>
+
+                        <div class="personality-tag">
+                            TALKS. A LOT.
+                        </div>
+
+                        <div class="quote-box">
+                            <span>HER MOST DOCUMENTED THREAT:</span>
+
+                            <strong>
+                                "Bakwās munh pe maar dungi."
+                            </strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <button class="primary-btn next-btn">
+                    <span>CONTINUE</span>
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SCREEN 03 — EMAN EQUATION
+        ================================================== -->
+
+        <section class="screen" id="screen-3">
+
+            <div class="screen-inner">
+
+                <div class="section-heading centered">
+
+                    <div class="eyebrow">
+                        02 / THE EQUATION
+                    </div>
+
+                    <h2>
+                        The Eman <em>Equation.</em>
+                    </h2>
+
+                    <p>
+                        Scientifically questionable.
+                        Personally accurate.
+                    </p>
+
+                </div>
+
+
+                <div class="equation">
+
+                    <div class="equation-card">
+                        <span>01</span>
+                        <strong>HELPING<br>EVERYONE (Only We 3 )</strong>
+                    </div>
+
+                    <div class="operator">+</div>
+
+                    <div class="equation-card">
+                        <span>02</span>
+                        <strong>1000+<br>PICTURES</strong>
+                    </div>
+
+                    <div class="operator">+</div>
+
+                    <div class="equation-card">
+                        <span>03</span>
+                        <strong>FILTER<br>MANDATORY</strong>
+                    </div>
+
+                    <div class="operator">+</div>
+
+                    <div class="equation-card">
+                        <span>04</span>
+                        <strong>NONSTOP<br>TALKING</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="equation-result">
+
+                    <span>RESULT</span>
+
+                    <strong>
+                        EMAN.
+                    </strong>
+
+                </div>
+
+
+                <button class="primary-btn next-btn">
+                    <span>THE DAMAGE REPORT</span>
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SCREEN 04 — 7TH SEMESTER
+        ================================================== -->
+
+        <section class="screen" id="screen-4">
+
+            <div class="screen-inner">
+
+                <div class="section-heading">
+
+                    <div class="eyebrow">
+                        03 / CHAPTER 07
+                    </div>
+
+                    <h2>
+                        The 7th Semester<br>
+                        <em>Damage Report.</em>
+                    </h2>
+
+                    <p>
+                        We came to university for a degree.
+                        Somehow we collected a lifetime of memories.
+                    </p>
+
+                </div>
+
+
+                <div class="damage-grid">
+
+                    <div class="damage-card large">
+                        <span>07</span>
+                        <strong>SEMESTERS</strong>
+                        <small>AND STILL SURVIVING</small>
+                    </div>
+
+                    <div class="damage-card">
+                        <span>∞</span>
+                        <strong>PHOTOS</strong>
+                        <small>NONE OF THEM NORMAL</small>
+                    </div>
+
+                    <div class="damage-card">
+                        <span>??</span>
+                        <strong>OUTINGS</strong>
+                        <small>FOOD WAS INVOLVED</small>
+                    </div>
+
+                    <div class="damage-card wide">
+                        <span>01</span>
+                        <strong>FRIEND GROUP</strong>
+                        <small>FOUR GIRLS. TOO MANY STORIES.</small>
+                    </div>
+
+                </div>
+
+
+                <button class="primary-btn next-btn">
+                    <span>OPEN CAMERA ROLL</span>
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SCREEN 05 — CAMERA ROLL
+        ================================================== -->
+
+        <section class="screen" id="screen-5">
+
+            <div class="screen-inner">
+
+                <div class="section-heading">
+
+                    <div class="eyebrow">
+                        04 / CAMERA ROLL
+                    </div>
+
+                    <h2>
+                        The <em>Evidence.</em>
+                    </h2>
+
+                    <p>
+                        A completely unnecessary amount of photographic
+                        documentation.
+                    </p>
+
+                </div>
+
+
+                <div class="camera-phone">
+
+                    <div class="phone-top">
+                        <span>EMAN'S CAMERA ROLL</span>
+                        <span>● REC</span>
+                    </div>
+
+
+                    <div class="photo-grid">
+
+                        <!-- ADD YOUR PHOTOS -->
+                        <div class="photo-item">
+                            <img src="assets/photo1.jpg" alt="Memory 1">
+                            <span>001</span>
+                        </div>
+
+                        <div class="photo-item">
+                            <img src="assets/photo2.jpg" alt="Memory 2">
+                            <span>002</span>
+                        </div>
+
+                        <div class="photo-item">
+                            <img src="assets/photo16.jpeg" alt="Memory 3">
+                            <span>003</span>
+                        </div>
+
+                        <div class="photo-item">
+                            <img src="assets/photo4.jpg" alt="Memory 4">
+                            <span>004</span>
+                        </div>
+
+                        <div class="photo-item">
+                            <img src="assets/photo15.jpeg" alt="Memory 5">
+                            <span>005</span>
+                        </div>
+
+                        <div class="photo-item">
+                            <img src="assets/photo6.jpg" alt="Memory 6">
+                            <span>006</span>
+                        </div>
+
+                        <div class="photo-item">
+                            <img src="assets/photo7.jpg" alt="Memory 7">
+                            <span>007</span>
+                        </div>
+
+                        <div class="photo-item">
+                            <img src="assets/photo11.jpeg" alt="Memory 8">
+                            <span>008</span>
+                        </div>
+                        <div class="photo-item">
+                            <img src="assets/photo9.jpg" alt="Memory 8">
+                            <span>009</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <button class="primary-btn next-btn">
+                    <span>FILTER FACTORY</span>
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SCREEN 06 — FILTER FACTORY
+        ================================================== -->
+
+        <section class="screen" id="screen-6">
+
+            <div class="screen-inner">
+
+                <div class="section-heading">
+
+                    <div class="eyebrow">
+                        05 / FILTER FACTORY
+                    </div>
+
+                    <h2>
+                        One Normal Picture<br>
+                        <em>Was Never An Option.</em>
+                    </h2>
+
+                    <p>
+                        Start normal. Add filters. Lose all evidence
+                        of the original face.
+                    </p>
+
+                </div>
+
+
+                <div class="filter-stage">
+
+                    <!-- ADD THE PHOTO YOU WANT TO FILTER -->
+                    <div class="filter-image-wrap">
+
+                        <img
+                            src="assets/photo-filter.jpg"
+                            alt="Filter photo"
+                            id="filterImage"
+                        >
+
+                        <div class="filter-overlay"></div>
+
+                    </div>
+
+
+                    <div class="filter-controls">
+
+                        <button
+                            class="filter-btn active"
+                            data-filter="none">
+                            NORMAL
+                        </button>
+
+                        <!-- <button
+                            class="filter-btn"
+                            data-filter="pink">
+                            PINK
+                        </button>
+
+                        <button
+                            class="filter-btn"
+                            data-filter="purple">
+                            PURPLE
+                        </button> -->
+
+                        <button
+                            class="filter-btn"
+                            data-filter="glow">
+                            GLOW
+                        </button>
+
+                        <button
+                            class="filter-btn"
+                            data-filter="chaos">
+                            EVERYTHING
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="filter-result" id="filterResult">
+                    NORMAL MODE DETECTED.
+                </div>
+
+
+                <button class="primary-btn next-btn">
+                    <span>ENTER FASHION POLICE</span>
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SCREEN 07 — FASHION POLICE
+        ================================================== -->
+
+        <section class="screen" id="screen-7">
+
+            <div class="screen-inner">
+
+                <div class="section-heading centered">
+
+                    <div class="eyebrow">
+                        06 / FASHION DEPARTMENT
+                    </div>
+
+                    <h2>
+                        Fashion <em>Police.</em>
+                    </h2>
+
+                    <p>
+                        Because apparently looking good is a full-time job.
+                    </p>
+
+                </div>
+
+
+                <div class="fashion-gallery">
+
+                    <!-- ADD FASHION PHOTO 1 -->
+                    <div class="fashion-card fashion-one">
+
+                        <img
+                            src="assets/fashion5.jpeg"
+                            alt="Eman fashion look"
+                        >
+
+                        <div class="fashion-label">
+                            <span>LOOK 01</span>
+                            <strong>APPROVED.</strong>
+                        </div>
+
+                    </div>
+
+
+                    <!-- ADD FASHION PHOTO 2 -->
+                    <div class="fashion-card fashion-two">
+
+                        <img
+                            src="assets/fashion2.jpeg"
+                            alt="Eman fashion look"
+                        >
+
+                        <div class="fashion-label">
+                            <span>LOOK 02</span>
+                            <strong>OBVIOUSLY.</strong>
+                        </div>
+
+                    </div>
+
+
+                    <!-- ADD FASHION PHOTO 3 -->
+                    <div class="fashion-card fashion-three">
+
+                        <img
+                            src="assets/fashion3.jpeg"
+                            alt="Eman fashion look"
+                        >
+
+                        <div class="fashion-label">
+                            <span>LOOK 03</span>
+                            <strong>NO NOTES.</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <button class="primary-btn next-btn">
+                    <span>OPEN THE INCIDENT FILE</span>
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SCREEN 08 — THE INCIDENT
+        ================================================== -->
+
+        <section class="screen" id="screen-8">
+
+            <div class="screen-inner">
+
+                <div class="section-heading">
+
+                    <div class="eyebrow">
+                        07 / INCIDENT REPORT
+                    </div>
+
+                    <h2>
+                        The <em>Incident.</em>
+                    </h2>
+
+                    <p>
+                        There was an injury.
+                        There was crying.
+                        There was laughing.
+                        There were witnesses.
+                        And initially...
+                    </p>
+
+                </div>
+
+
+                <div class="incident-box">
+
+                    <div class="incident-header">
+                        <span>CASE #007</span>
+                        <span>STATUS: CLOSED</span>
+                    </div>
+
+
+                    <div class="incident-video">
+
+                        <!-- ADD EMAN'S INJURY VIDEO -->
+                        <video
+                            id="incidentVideo"
+                            controls
+                            playsinline
+                            preload="metadata">
+
+                            <source
+                                src="assets/eman-injury.mp4"
+                                type="video/mp4">
+
+                        </video>
+
+                    </div>
+
+
+                    <div class="incident-assessment">
+
+                        <div class="assessment">
+                            <span>INITIAL GROUP ASSESSMENT</span>
+                            <strong>
+                                "Drama kar rahi hai."
+                            </strong>
+                        </div>
+
+                        <div class="assessment final-assessment">
+                            <span>FINAL FINDING</span>
+                            <strong>
+                                She was, in fact,<br>
+                                NOT doing drama.
+                            </strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <button class="primary-btn next-btn">
+                    <span>HEAR THE WITNESSES</span>
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+  <!-- =================================================
+     SCREEN 09 — VOICE WALL
+================================================== -->
+
+<section class="screen" id="screen-9">
+
+    <div class="screen-inner">
+
+        <div class="section-heading centered">
+
+            <div class="eyebrow">
+                08 / THREE WITNESSES
+            </div>
+
+            <h2>
+                Messages From<br>
+                <em>The Other Three.</em>
+            </h2>
+
+            <p>
+                Three voices. One birthday girl.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             VOICE WALL
+        ================================================== -->
+
+        <div class="voice-wall">
+
+
+            <!-- =================================================
+                 WITNESS 1 — NOOR
+            ================================================== -->
+
+            <button
+                class="voice-card"
+                type="button"
+                data-witness="1">
+
+                <div class="voice-number">
+                    01
+                </div>
+
+                <div class="voice-content">
+
+                    <strong>
+                        WITNESS ONE
+                    </strong>
+
+                    <span>
+                        3 voice notes • Tap to listen
+                    </span>
+
+                </div>
+
+                <div class="voice-play">
+                    ▶
+                </div>
+
+            </button>
+
+
+            <!-- NOOR'S THREE VOICE NOTES -->
+
+            <div
+                class="voice-notes-list"
+                id="witnessNotes1"
+                hidden>
+
+                <button
+                    class="voice-note-item"
+                    type="button"
+                    data-audio="assets/noor1.mp3"
+                    data-note="1">
+
+                    <span class="voice-note-number">
+                        01
+                    </span>
+
+                    <span class="voice-note-info">
+
+                        <strong>
+                            NOOR 01
+                        </strong>
+
+                        <small>
+                            Voice message one
+                        </small>
+
+                    </span>
+
+                    <span class="voice-note-icon">
+                        ▶
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="voice-note-item"
+                    type="button"
+                    data-audio="assets/noor2.mp3"
+                    data-note="2">
+
+                    <span class="voice-note-number">
+                        02
+                    </span>
+
+                    <span class="voice-note-info">
+
+                        <strong>
+                            NOOR 02
+                        </strong>
+
+                        <small>
+                            Voice message two
+                        </small>
+
+                    </span>
+
+                    <span class="voice-note-icon">
+                        ▶
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="voice-note-item"
+                    type="button"
+                    data-audio="assets/noor3.mp3"
+                    data-note="3">
+
+                    <span class="voice-note-number">
+                        03
+                    </span>
+
+                    <span class="voice-note-info">
+
+                        <strong>
+                            NOOR 03
+                        </strong>
+
+                        <small>
+                            Voice message three
+                        </small>
+
+                    </span>
+
+                    <span class="voice-note-icon">
+                        ▶
+                    </span>
+
+                </button>
+
+            </div>
+
+
+            <!-- =================================================
+                 WITNESS 2
+            ================================================== -->
+
+            <button
+                class="voice-card"
+                type="button"
+                data-witness="2">
+
+                <div class="voice-number">
+                    02
+                </div>
+
+                <div class="voice-content">
+
+                    <strong>
+                        WITNESS TWO
+                    </strong>
+
+                    <span>
+                        Tap to listen
+                    </span>
+
+                </div>
+
+                <div class="voice-play">
+                    ▶
+                </div>
+
+            </button>
+
+
+            <div
+                class="voice-notes-list"
+                id="witnessNotes2"
+                hidden>
+
+                <button
+                    class="voice-note-item"
+                    type="button"
+                    data-audio="assets/samreen.mp3"
+                    data-note="1">
+
+                    <span class="voice-note-number">
+                        01
+                    </span>
+
+                    <span class="voice-note-info">
+
+                        <strong>
+                            VOICE MESSAGE
+                        </strong>
+
+                        <small>
+                            Witness two
+                        </small>
+
+                    </span>
+
+                    <span class="voice-note-icon">
+                        ▶
+                    </span>
+
+                </button>
+
+            </div>
+
+
+            <!-- =================================================
+                 WITNESS 3
+            ================================================== -->
+
+            <button
+                class="voice-card"
+                type="button"
+                data-witness="3">
+
+                <div class="voice-number">
+                    03
+                </div>
+
+                <div class="voice-content">
+
+                    <strong>
+                        WITNESS THREE
+                    </strong>
+
+                    <span>
+                        Tap to listen
+                    </span>
+
+                </div>
+
+                <div class="voice-play">
+                    ▶
+                </div>
+
+            </button>
+
+
+            <div
+                class="voice-notes-list"
+                id="witnessNotes3"
+                hidden>
+
+                <button
+                    class="voice-note-item"
+                    type="button"
+                    data-audio="assets/mah.mp3"
+                    data-note="1">
+
+                    <span class="voice-note-number">
+                        01
+                    </span>
+
+                    <span class="voice-note-info">
+
+                        <strong>
+                            VOICE MESSAGE
+                        </strong>
+
+                        <small>
+                            Witness three
+                        </small>
+
+                    </span>
+
+                    <span class="voice-note-icon">
+                        ▶
+                    </span>
+
+                </button>
+
+            </div>
+
+
+            <!-- =================================================
+                 ACTIVE VOICE PLAYER
+            ================================================== -->
+
+            <div
+                class="voice-player"
+                id="voicePlayer"
+                style="display: none;">
+
+                <div class="voice-player-top">
+
+                    <div>
+
+                        <span class="voice-player-label">
+                            NOW PLAYING
+                        </span>
+
+                        <strong id="voicePlayerTitle">
+                            WITNESS ONE
+                        </strong>
+
+                    </div>
+
+                    <button
+                        class="voice-close"
+                        id="voiceClose"
+                        type="button"
+                        aria-label="Close voice player">
+                        ×
+                    </button>
+
+                </div>
+
+
+                <audio
+                    id="voiceAudio"
+                    preload="metadata">
+                </audio>
+
+
+                <div class="voice-controls">
+
+                    <button
+                        class="voice-main-play"
+                        id="voiceMainPlay"
+                        type="button">
+                        ▶
+                    </button>
+
+
+                    <div class="voice-progress-area">
+
+                        <input
+                            type="range"
+                            id="voiceProgress"
+                            min="0"
+                            max="100"
+                            value="0"
+                            step="0.1"
+                            aria-label="Voice playback progress">
+
+                        <div class="voice-time">
+
+                            <span id="voiceCurrentTime">
+                                0:00
+                            </span>
+
+                            <span id="voiceDuration">
+                                0:00
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="voice-speed">
+
+                        <span class="speed-label">
+                            SPEED
+                        </span>
+
+                        <button
+                            type="button"
+                            class="speed-btn active"
+                            data-speed="1">
+                            1x
+                        </button>
+
+                        <button
+                            type="button"
+                            class="speed-btn"
+                            data-speed="1.5">
+                            1.5x
+                        </button>
+
+                        <button
+                            type="button"
+                            class="speed-btn"
+                            data-speed="2">
+                            2x
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- STATUS -->
+
+        <div
+            class="voice-status"
+            id="voiceStatus">
+            SELECT A MESSAGE
+        </div>
+
+
+        <button class="primary-btn next-btn">
+
+            <span>
+                THE FOUR OF US
+            </span>
+
+            <span>
+                →
+            </span>
+
+        </button>
+
+    </div>
+
+</section>
+
+
+        <!-- =================================================
+             SCREEN 10 — FOUR OF US
+        ================================================== -->
+
+        <section class="screen" id="screen-10">
+
+            <div class="screen-inner">
+
+                <div class="section-heading">
+
+                    <div class="eyebrow">
+                        09 / THE FOUR OF US
+                    </div>
+
+                    <h2>
+                        Four People.<br>
+                        <em>One Very Specific Friendship.</em>
+                    </h2>
+
+                    <p>
+                        From first year to 7th semester —
+                        somehow the same people, same nonsense,
+                        and somehow even more memories.
+                    </p>
+
+                </div>
+
+
+                <div class="group-gallery">
+
+                    <!-- ADD GROUP PHOTOS -->
+                    <div class="group-photo big">
+                        <img
+                            src="assets/group6.jpeg"
+                            alt="Four friends"
+                        >
+                    </div>
+
+                    <div class="group-photo">
+                        <img
+                            src="assets/group11.jpeg"
+                            alt="Four friends"
+                        >
+                    </div>
+
+                    <div class="group-photo">
+                        <img
+                            src="assets/group3.jpeg"
+                            alt="Four friends"
+                        >
+                    </div>
+
+                    <div class="group-photo big">
+                        <img
+                            src="assets/group5.jpeg"
+                            alt="Four friends"
+                        >
+                    </div>
+
+                </div>
+
+
+                <div class="group-stats">
+
+                    <div>
+                        <strong>04</strong>
+                        <span>PEOPLE</span>
+                    </div>
+
+                    <div>
+                        <strong>07</strong>
+                        <span>SEMESTERS</span>
+                    </div>
+
+                    <div>
+                        <strong>∞</strong>
+                        <span>MEMORIES</span>
+                    </div>
+
+                </div>
+
+
+                <button class="primary-btn next-btn">
+                    <span>WHAT WE ACTUALLY KNOW</span>
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SCREEN 11 — WHAT WE KNOW
+        ================================================== -->
+
+        <section class="screen" id="screen-11">
+
+            <div class="screen-inner">
+
+                <div class="section-heading centered">
+
+                    <div class="eyebrow">
+                        10 / VERIFIED FACTS
+                    </div>
+
+                    <h2>
+                        What We Actually<br>
+                        Know About <em>Eman.</em>
+                    </h2>
+
+                </div>
+
+
+                <div class="facts-list">
+
+                    <div class="fact">
+                        <span>01</span>
+                        <p>
+                            She will help you.
+                            Even when you didn't ask.
+                        </p>
+                    </div>
+
+                    <div class="fact">
+                        <span>02</span>
+                        <p>
+                            She can turn a simple conversation
+                            into a full-length debate.
+                        </p>
+                    </div>
+
+                    <div class="fact">
+                        <span>03</span>
+                        <p>
+                            Taking one picture means taking
+                            approximately seventeen.
+                        </p>
+                    </div>
+
+                    <div class="fact">
+                        <span>04</span>
+                        <p>
+                            No photo leaves the phone
+                            without a filter.
+                        </p>
+                    </div>
+
+                    <div class="fact">
+                        <span>05</span>
+                        <p>
+                            Fashion advice will be given
+                            whether requested or not.
+                        </p>
+                    </div>
+
+                    <div class="fact">
+                        <span>06</span>
+                        <p>
+                            And when things actually matter...
+                            <strong>she'll be there.</strong>
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="random-joke">
+
+                    <span>RANDOM INSIDE JOKE GENERATOR</span>
+
+                    <button id="jokeButton">
+                        SHOW ME SOMETHING
+                    </button>
+
+                    <p id="jokeResult">
+                        Press the button. You know the rules.
+                    </p>
+
+                </div>
+
+
+                <button class="primary-btn next-btn">
+                    <span>OPEN THE FINAL CHAPTER</span>
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SCREEN 12 — FINAL
+        ================================================== -->
+
+        <section class="screen" id="screen-12">
+
+            <div class="screen-inner final-screen">
+
+                <div class="eyebrow">
+                    12 / FINAL CHAPTER
+                </div>
+
+
+                <div class="final-image-wrap">
+
+                    <!-- ADD YOUR BEST GROUP PHOTO -->
+                    <img
+                        src="assets/group12.jpeg"
+                        alt="Four friends"
+                        class="final-image"
+                    >
+
+                    <div class="final-image-overlay"></div>
+
+                </div>
+
+
+                <div class="final-content">
+
+                    <p class="final-small">
+                        We didn't need a thousand adventures.
+                    </p>
+
+                    <h2>
+                        Somehow,<br>
+                        ordinary days<br>
+                        became <em>enough.</em>
+                    </h2>
+
+                    <div class="final-signature">
+                        4 JISM. 1 JAAN.<br>
+                        AND ONE BIRTHDAY GIRL.
+                    </div>
+
+                    <h1 class="birthday-title">
+                        HAPPY BIRTHDAY,<br>
+                        EMAN.
+                    </h1>
+
+                    <p class="final-message">
+                        Still stuck with us.
+                    </p>
+
+
+                    <!-- WRITE YOUR PERSONAL MESSAGE HERE -->
+                    <div class="personal-message">
+                        <span>YOUR MESSAGE</span>
+
+                        <p contenteditable="true">
+                            Humariii Gulaboo. Love You So Much Our Baby Girl
+                        </p>
+                    </div>
+
+
+                    <div class="final-actions">
+
+                        <button
+                            class="primary-btn"
+                            id="secretBtn">
+                            <span>ONE MORE THING...</span>
+                            <span>→</span>
+                        </button>
+
+                        <button
+                            class="secondary-btn"
+                            id="replayBtn">
+                            REPLAY EXPERIENCE
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SECRET LEVEL
+        ================================================== -->
+
+        <section class="secret-screen" id="secretScreen">
+
+            <div class="secret-inner">
+
+                <div class="eyebrow">
+                    SECRET LEVEL UNLOCKED
+                </div>
+
+                <h2>
+                    You really thought<br>
+                    we'd end <em>normally?</em>
+                </h2>
+
+                <p>
+                    Humaara Premium Piece 
+                </p>
+
+
+                <div class="secret-video-wrap">
+
+                    <!-- OPTIONAL OUTTAKE VIDEO -->
+                    <video
+                        controls
+                        playsinline
+                        preload="metadata">
+
+                        <source
+                            src="assets/diva.mp4"
+                            type="video/mp4">
+
+                    </video>
+
+                </div>
+
+
+                <p class="secret-message">
+                    Happy Birthday, Eman.<br>
+                    Humari Jaan 😘
+                </p>
+
+
+                <button
+                    class="primary-btn"
+                    id="secretClose">
+                    <span>OKAY FINE</span>
+                    <span>↩</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =====================================================
+         NAVIGATION
+    ====================================================== -->
+
+    <div class="bottom-nav">
+
+        <button
+            id="backBtn"
+            class="nav-btn"
+            disabled>
+            ← BACK
+        </button>
+
+        <div class="nav-hint">
+            TAP TO EXPLORE
+        </div>
+
+        <button
+            id="nextGlobal"
+            class="nav-btn">
+            NEXT →
+        </button>
+
+    </div>
+
+
+    <!-- =====================================================
+         MEMORY MODAL
+    ====================================================== -->
+
+    <div class="memory-modal" id="memoryModal">
+
+        <div class="modal-content">
+
+            <button
+                class="modal-close"
+                id="modalClose">
+                ×
+            </button>
+
+            <div id="modalBody"></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
